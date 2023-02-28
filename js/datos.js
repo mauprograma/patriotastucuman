@@ -134,7 +134,7 @@ const datos = [
   },
   {
     codigo: "5",
-    nombre: "Antonio Sáenz.",
+    nombre: "Antonio Sáenz",
     nacimiento: "6 de junio de 1780, Buenos Aires, Argentina.",
     fallecimiento: "22 de julio de 1825, Buenos Aires, Argentina (45 años).",
     nacionalidad: "Argentina.",
