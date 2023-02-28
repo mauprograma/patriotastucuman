@@ -1,15 +1,10 @@
-# Archivo readme
-Información útil para analizar este repositorio.
-
 
 # Proyecto final integrador - Primeros pasos en el desarrollo front-end - Argentina Programa 4.0
 
 Tarea a realizar: Primeros pasos en el desarrollo front-end.
 En tu primera tarea en la empresa, te solicitan que realices una página web que posea un currículum vitae. La creación de este cv online te permitirá llevar a la práctica todo lo que fuimos trabajando a lo largo de los módulos. El CV comprende información personal, experiencia y habilidades.
 
-## Autor
-
-- Alonso Mauricio Javier
+# Autor: Mauricio Javier Alonso
 
 ## 1 - Comentarios previos
 
