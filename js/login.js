@@ -1,13 +1,7 @@
 function cargarLocalStorage() {
   let botonLoginLogout = document.getElementById("botonLoginLogout");
   let contenidoLogin = document.getElementById("contenidoLogin");
-  let saludos = [
-    "Saludos",
-    "Hola",
-    "Cómo estás",
-    "Aló",
-    "Buenas y santas",
-  ];
+  let saludos = ["Saludos", "Hola", "Cómo estás", "Aló", "Buenas y santas"];
   let saludoAleatorio = saludos[Math.floor(Math.random() * saludos.length)];
   let name = localStorage.getItem("loginPatriota");
   if (name != undefined || name != null) {

@@ -823,9 +823,7 @@ const datos = [
       "1813 - Canónigo de la catedral de Salta.",
       "1789 - Designado Cura párroco de El Alto, provincia de Catamarca.",
     ],
-    educacion: [
-       "1784 - Doctor en Teología, Universidad Nacional de Córdoba.",
-    ],
+    educacion: ["1784 - Doctor en Teología, Universidad Nacional de Córdoba."],
     aficiones: "Propugnó una monarquía inca como forma de gobierno.",
     imagen: "../img/ThamesJoseIgnacio.jpg",
     youtube: "https://www.youtube.com/watch?v=Wp5yUaBSdIw",
@@ -990,7 +988,7 @@ const datosMauricio = [
       "01/2006 - 12/2014 - Especialista en Tributación - Universidad Nacional de Córdoba",
       "01/2000 - 12/2005 - Contador Público - Universidad Siglo 21",
     ],
-    aficiones: ["Programación web (nivel Trainee)", "Guitarra", "Ajedrez"],
+    aficiones: "Programación web (nivel Trainee), Guitarra, Ajedrez.",
     imagen: "../img/MauricioJavierAlonso.jpg",
     linkedin: "https://www.linkedin.com/in/mauriciojavieralonso/",
   },
@@ -1021,12 +1019,11 @@ const datosMauricio = [
       "01/2006 - 12/2014 - Tax Specialist - National University of Cordoba ",
       "01/2000 - 12/2005 - Accountant - Siglo 21 University",
     ],
-    aficiones: ["Web programming (Trainee Level)", "Guitar", "Chess"],
+    aficiones: "Web programming (Trainee Level), Guitar, Chess.",
     imagen: "../img/MauricioJavierAlonso.jpg",
     linkedin: "https://www.linkedin.com/in/mauriciojavieralonso/",
   },
 ];
-
 
 const frases = [
   "Era universal, constante y decidido el clamor del territorio entero por su emancipacion solemne del poder despótico de los reyes de España (Acta de declaración de la Independencia).",

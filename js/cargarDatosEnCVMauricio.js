@@ -1,11 +1,10 @@
-datosMios = datosMauricio[0]
+datosMios = datosMauricio[0];
 
 function cargarDatosMauricio() {
-
   let nombre = document.getElementById("nombre");
   nombre.innerHTML = ` ${datosMios.nombre} `;
   let imagen = document.getElementById("imagen");
-  imagen.setAttribute('src', datosMios.imagen) 
+  imagen.setAttribute("src", datosMios.imagen);
   let profesion = document.getElementById("profesion");
   profesion.innerHTML = `${datosMios.profesion} `;
   let nacionalidad = document.getElementById("nacionalidad");
@@ -18,7 +17,7 @@ function cargarDatosMauricio() {
   mail.innerHTML = `${datosMios.mail} `;
   let resumen = document.getElementById("resumen");
   resumen.innerHTML = `${datosMios.resumen} `;
-  
+
   let habilidades = datosMios.habilidades.map((mauricio) => {
     crearLiHabilidades(mauricio);
   });
@@ -32,11 +31,9 @@ function cargarDatosMauricio() {
   aficiones.innerHTML = `${datosMios.aficiones} `;
   let linkedin = document.getElementById("linkedin");
   linkedin.innerHTML = `<a id="linkedin"href="${datosMios.linkedin}" class="mx-1"><i class="fa-brands fa-linkedin fs-4  mx-2"></i></a>`;
-
 }
 
-cargarDatosMauricio(); 
-
+cargarDatosMauricio();
 
 function crearLiHabilidades(mauricio) {
   let habilidades = document.getElementById("habilidades");
@@ -66,8 +63,5 @@ function obtenerEdad() {
   if (m < 0 || (m === 0 && hoy.getDate() < fechaNacimiento.getDate())) {
     edad--;
   }
- return edad;
+  return edad;
 }
-
-
-

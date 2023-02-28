@@ -9,8 +9,8 @@ const consultarAPI = async () => {
   <div class="rect3"></div>
   <div class="rect4"></div>
   <div class="rect5"></div>
-</div>`
-document.getElementById("seguidoresParrafoContenedor").innerHTML = spinner;
+</div>`;
+  document.getElementById("seguidoresParrafoContenedor").innerHTML = spinner;
   try {
     const respuesta = await fetch("https://randomuser.me/api/");
     const dato = await respuesta.json();
@@ -28,45 +28,13 @@ document.getElementById("seguidoresParrafoContenedor").innerHTML = spinner;
             
           </div> `;
   } catch (error) {
-    alert("No se pudo cargar la API");
+    Swal.fire({
+      icon: "error",
+      title: "Oops...",
+      text: "¡No se pudieron cargar los seguidores!",
+      footer: '<p class="text-info">Recarga la página y prueba nuevamente<p>',
+    });
   }
 };
 
 consultarAPI();
-
-
-
-
-
-
-/*
-let seguidoresParrafoContenedor = document.getElementById(
-  "seguidoresParrafoContenedor"
-);
-let seguidorIntro = document.getElementById("seguidorIntro");
-let seguidorNombre = document.getElementById("seguidorNombre");
-let seguidorApellido = document.getElementById("seguidorApellido");
-let seguidorCiudad = document.getElementById("seguidorCiudad");
-let seguidorEstado = document.getElementById("seguidorEstado");
-let seguidorPais = document.getElementById("seguidorPais");
-let seguidorImagen = document.getElementById("seguidorImagen");
-
-var consultarAPI = async () => {
-  try {
-    const respuesta = await fetch("https://randomuser.me/api/");
-    const dato = await respuesta.json();
-    seguidorNombre.innerHTML = dato.results[0].name.first;
-    seguidorApellido.innerHTML = dato.results[0].name.last;
-    seguidorCiudad.innerHTML = dato.results[0].location.city;
-    seguidorEstado.innerHTML = dato.results[0].location.state;
-    seguidorPais.innerHTML = dato.results[0].location.country;
-    seguidorImagen.setAttribute("src", dato.results[0].picture.medium);
-  } catch (error) {
-    alert("No se pudo cargar la API");
-  }
-};
-
-consultarAPI();
-
-
-*/

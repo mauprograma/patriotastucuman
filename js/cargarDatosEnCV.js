@@ -1,15 +1,13 @@
 const parametroCodigo = new URLSearchParams(window.location.search);
 
-
 let patriotaBuscado = datos.find((patriota) => {
   return patriota.codigo === parametroCodigo.get("codigo");
 });
 
-
 let nombre = document.getElementById("nombre");
 nombre.innerHTML = ` ${patriotaBuscado.nombre} `;
 let imagen = document.getElementById("imagen");
-imagen.setAttribute('src', patriotaBuscado.imagen) 
+imagen.setAttribute("src", patriotaBuscado.imagen);
 let profesion = document.getElementById("profesion");
 profesion.innerHTML = `${patriotaBuscado.profesion} `;
 let distrito = document.getElementById("distrito");

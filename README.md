@@ -8,7 +8,7 @@ En tu primera tarea en la empresa, te solicitan que realices una página web que
 
 ## 1 - Comentarios previos
 
-En este trabajo, traté de aplicar todo lo visto en el cursado de Desarrollo de Front End., más algunas herramientas que aprendí investigando, probando y siguiendo tutoriales en la web. 
+En este trabajo, traté de aplicar todo lo visto en el cursado de Desarrollo de Front-end, más algunas herramientas que aprendí investigando, probando y siguiendo tutoriales en la web. 
 Me esforcé mucho para este trabajo porque descubrí que la programación web me apasiona y quería aplicar al máximo lo que aprendí. 
 No quise hacer un trabajo sin un marco, un entorno, sin alma. Le quise conceder una temática, no quería que el CV estuviese desprovisto de un contexto. 
 Al principio, intenté utilizar la API recomendada ("https://randomuser.me/api/"), pero no me satisfizo en cuanto a los datos aportados, ya que no brindaba información aleatoria sobre experiencias ni habilidades, aspectos centrales en un currículum. 
