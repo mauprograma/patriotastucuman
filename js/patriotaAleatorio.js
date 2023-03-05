@@ -14,7 +14,7 @@ function patriotaAleatorio() {
                         <h5 class="card-title">Patriota al azar: <span  class="text-info">${patriotaAleatorio.nombre}</span></h5>
                         <p class="card-text">${patriotaAleatorio.profesion} Diputado por el distrito de <span class="text-info"> ${patriotaAleatorio.distrito}.</span> </p>
                         <div class="text-center">
-                        <a class="btn btn-success" onclick="detallePatriotaAleatorio('${patriotaAleatorio.codigo}')">Ver CV</a>
+                        <a class="btn btn-primary" href="./pages/cv.html?codigo=${patriotaAleatorio.codigo}">Ver CV</a>
                         </div>
                       </div>                    
                   </div>
@@ -23,7 +23,3 @@ function patriotaAleatorio() {
     `;
 }
 
-function detallePatriotaAleatorio(codigo) {
-  window.location.href =
-    window.location.origin + "/pages/cv.html?codigo=" + codigo;
-}
