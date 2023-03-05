@@ -6,7 +6,7 @@ En tu primera tarea en la empresa, te solicitan que realices una página web que
 
 # Autor: Mauricio Javier Alonso
 
-## ACLARACIÓN PREVIA - NUEVA RAMA:  github-pages
+## ACLARACIÓN PREVIA - NUEVA RAMA:  github-pages  MERGED a MAIN
 
 Esta rama modifiqué el código en los links para que Github pages no arroje un error 404. Si bien a nivel local la página andaba sin problemas, en GithubPages arrojaba el error 404. Con la modificación en el código de los links se arregló el problema. Además también funciona a nivel local. 
 
