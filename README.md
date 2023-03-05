@@ -6,6 +6,11 @@ En tu primera tarea en la empresa, te solicitan que realices una página web que
 
 # Autor: Mauricio Javier Alonso
 
+## ACLARACIÓN PREVIA - NUEVA RAMA:  github-pages
+
+Esta rama modifiqué el código en los links para que Github pages no arroje un error 404. Si bien a nivel local la página andaba sin problemas, en GithubPages arrojaba el error 404. Con la modificación en el código de los links se arregló el problema. Además también funciona a nivel local. 
+
+
 ## 1 - Comentarios previos
 
 En este trabajo, traté de aplicar todo lo visto en el cursado de Desarrollo de Front-end, más algunas herramientas que aprendí investigando, probando y siguiendo tutoriales en la web. 
@@ -56,7 +61,7 @@ Este archivo css contiene el apartado de estilo del spinner, el cual es aplicado
 
 ## 6 - Los archivos JS
 1. index.js
-Esta función se aplica en el index. Tiene como objetivo mapear la base de datos en lo relativo a los patriotas y generar una card por cada patriota, la cual es agregada al DOM. También se utiliza el comando window.location.origin, el cual, combinado con el código del patriota, permite cargar sus datos precisos en la página cv.html
+Esta función se aplica en el index. Tiene como objetivo mapear la base de datos en lo relativo a los patriotas y generar una card por cada patriota, la cual es agregada al DOM. Se crea un link en cada card con el código  "'href="./pages/cv.html?codigo=${patriota.codigo}'", permite cargar sus datos precisos en la página cv.html
 2. datos.js
 Es la base de datos, la cual se explicó en el punto 1. 
 3. cargarDatosEnCV.js
@@ -70,7 +75,7 @@ Es la función encargada de cambiar el "href" dentro de la etiqueta "link" en el
 7. login.js
 La función de login se encarga de lo atinente a generar un usuario simple, el cual se guarda en el localStorage. La función carga el dato en el localStorage traído de la input en la ventana modal. También hay una función que graba en el localStorage, otra que borra el registro. En este archivo también hay una función que genera un saludo aleatorio al usuario logueado. Si no hay ningún usuario logueado, aparece la palabra genérica "Visitante". 
 8. patriotaAleatorio.js
-Esta función, mediante Math random, aplicado al length de los datos, genera una card aleatoria de un patriota. Es un detalle que le da un contenido que varía a la página. En la card hay un botón que permite navegar hasta el CV del patriota, mediante la aplicación de window.location.origin. 
+Esta función, mediante Math random, aplicado al length de los datos, genera una card aleatoria de un patriota. Es un detalle que le da un contenido que varía a la página. En la card hay un botón que permite navegar hasta el CV del patriota, un link en cada card con el código  "'href="./pages/cv.html?codigo=${patriota.codigo}'", permite cargar sus datos precisos en la página cv.html
 9. seguidoresAleatorio.js
 Aquí apliqué la api "randomuser". Mediante fetch traigo los datos que quiero de la api (name.first; name.last; location) y los agrego al DOM en en una sección seguidores del index. 
 

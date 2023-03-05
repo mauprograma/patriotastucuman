@@ -11,14 +11,12 @@ function crearColumna(patriota) {
       <div class="card-body text-center">
         <h5 class="card-title">${patriota.nombre}</h5>
         <h5 class="text-danger">${patriota.distrito}</h5>
-        <button class="btn btn-primary" onclick="detallePatriota('${patriota.codigo}')">Ver CV</button>
+          <a class="btn btn-primary" href="./pages/cv.html?codigo=${patriota.codigo}">Ver CV</a>
+      </div>
       </div>
     </div>
   </aside>
     `;
 }
 
-function detallePatriota(codigo) {
-  window.location.href =
-    window.location.origin + "/pages/cv.html?codigo=" + codigo;
-}
+
