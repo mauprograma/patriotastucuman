@@ -92,8 +92,9 @@ const datos = [
     aficiones:
       "Revolucionario, conocimientos de la lengua quechua, afinidad a los dogmas de una monarquía constitucional.",
     imagen: "./img/SerranoJoseMariano.jpg",
+    youtube: "https://www.youtube.com/watch?v=BAghOmnvhkY",
     wikipedia:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Jos%C3%A9_Mariano_Serrano.jpg/220px-Jos%C3%A9_Mariano_Serrano.jpg",
+      "https://es.wikipedia.org/wiki/Jos%C3%A9_Mariano_Serrano",
   },
   {
     codigo: "4",
